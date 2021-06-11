@@ -8,7 +8,7 @@ public class TC003 {
 	@Test
 	public void testCase1() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver","D:\\1.Testing\\SeleniumJenkins\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https:www.facebook.com");
 		driver.findElementById("email").sendKeys("Hello");
